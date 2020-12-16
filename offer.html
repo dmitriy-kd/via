@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>
+		Закажите Мебель Вашей Мечты | Via - Мебель Для Вашего Дома
+	</title>
+	<meta name="description" content="Закажите бесплатный звонок прямо сейчас">
+	
+	<link href="https://fonts.googleapis.com/css?family=Vollkorn" rel="stylesheet">
+	<link rel="stylesheet" href="css/bootstrap-grid.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/fm.revealator.jquery.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/media.css">
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-136677567-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-136677567-1');
+</script>
+
+</head>
+<body>
+	<section id="header-offer">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col">
+					<div class="nav-menu">
+						<nav>
+							<input type="checkbox" id="nav" class="hidden">
+							<label for="nav" class="nav-btn">
+								<i></i>
+								<i></i>
+								<i></i>
+							</label>
+							<div class="nav-wrapper">
+								<ul>
+									<li><a href="index.html">Главная</a></li>
+									<li><a href="feedback.html">Отзывы</a></li>
+									<li><a href="gallery.html">Галерея</a></li>
+									<li><a href="about.html">О компании</a></li>
+									<li><a href="offer.html">Заказать</a></li>
+								</ul>
+							</div>
+						</nav>
+					</div>
+				</div>
+			</div>
+			<div class="row revealator-fade revealator-once revealator-delay1">
+				<div class="col">
+					<div class="offer-title">
+						<h2>Для оформления заказа, заполните данную форму</h2>
+						<p>Наш менеджер перезвонит Вам для уточнения деталей заказа</p>
+					</div>
+				</div>
+			</div>
+			<div class="row revealator-fade revealator-once revealator-delay1">
+				<div class="col">
+					<div class="signin">
+						<form action="send.php" method="post">
+							<input type="text" placeholder="Введите Ваше имя" class="offer-text" name="fio">
+							<input type="text" placeholder="Введите Ваш номер телефона" class="offer-text" name="phone">
+							<input type="text" placeholder="Введите Ваш адрес" class="offer-text" name="adress">
+							<span>Выберите вид услуги:</span>
+							<select name="type-of-service" required>
+								<option value="Изготовление мебели на заказ">Изготовление мебели на заказ</option>
+								<option value="Приобретение готовой мебели">Приобретение готовой мебели</option>
+								<option value="Реставрация старой мебели">Реставрация старой мебели</option>
+							</select>
+							<br/>
+							<span>В какое время Вам удобнее перезвонить?</span>
+							<input type="time" name="clock" value="19:00" min="09:00" max="22:00" id="offer-time">
+							<br/>
+							<button class="btn-offer">Заказать</button>
+						</form>
+					</div>
+				</div>
+			</div>
+			<!--<div class="row">
+				<div class="col">
+					<div class="pustota">
+					</div>
+				</div>
+			</div>-->
+		</div>
+	</section>
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6">
+						<div class="mailing">
+							<p>Будьте в курсе наших акций и спецпредложений</p>
+							<form action="subscribe.php" method="post">
+								<input type="text" name="email" placeholder="Ваш Email" autocomplete="off" required />
+								<button class="btn-sub">Подписаться</button>
+							</form>
+							<br/>
+							<i class="fas fa-check-circle"></i>
+							<span>Я согласен на обработку персональных данных,<br/> а также с условиями подписки.</span>
+						</div>
+				</div>
+				<div class="col">
+					<div class="footer-items">
+						<p>Помощь</p>
+						<ul>
+							<li><a href="about.html">Доставка</a></li>
+							<li><a href="about.html">Гарантия</a></li>
+							<li><a href="about.html">Оплата</a></li>
+							<li><a href="about.html">Возврат</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col">
+					<div class="footer-items">
+						<p>Всё о Via</p>
+						<ul>
+							<li><a href="feedback.html">Отзывы</a></li>
+							<li><a href="about.html">О компании</a></li>
+							<li><a href="offer.html">Контакты</a></li>
+							<li><a href="rights.html">Правообладателям</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col">
+					<div class="footer-items">
+						<p>Контакты</p>
+						<ul>
+							<li><a href="#">8-705-435-56-11</a></li>
+							<li><a href="mailto:via.1@inbox.ru">Via.1@inbox.ru</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<hr color=#939393 size="1" width="100%"> 
+			</div>
+			<div class="row">
+				<div class="col">
+					<div class="authors">
+						<p>Via Copyright 2019. All rights reserved.</p>
+					</div>
+				</div>
+				<div class="col">
+					<div class="authors">
+						<p class="authors-right">Design by <a href="#">DmitriyKim</a> 2019</p>
+					</div>
+				</div>
+			</div>
+			<a href=".popup" id="popup__toggle" onclick="return false;">
+					<div class="circlephone" style="transform-origin: center;">
+					</div>
+					<div class="circle-fill" style="transform-origin: center;">
+					</div>
+					<div class="img-circle" style="transform-origin: center;">
+						<div class="img-circleblock" style="transform-origin: center;">
+						</div>
+					</div>
+			</a>
+		</div>
+		
+	</footer>
+	<div class="popup__overlay">
+		<div class="popup">
+			<div class="popup__close">X</div>
+			<h2>Обратный звонок</h2>
+			<p>Если Вам необходима консультация, Вы можете ввести свой номер телефона и наш менедежр перезвонит Вам в течении 10 минут!<br/>Это бесплатно!</p>
+			<form action="telegram.php" method="POST">
+				<input type="text" name="phone" placeholder="Введите Ваш номер телефона" id="modal_text">
+				<div class="zvonok">
+					<input type="submit" name="zvonok" value="Оформить звонок"/>
+				</div>
+			</form>
+		</div>
+		<!--[if lt IE 9]><div class="popup__valignfix"></div><![endif]-->
+		</div>
+	<script type="text/javascript" src="scripts/jquery3.js"></script>
+	<script type="text/javascript" src="scripts/fm.revealator.jquery.js"></script>
+	<script type="text/javascript">
+	Revealator.effects_padding = '-440';
+	</script>
+	
+	<script type="text/javascript" src="scripts/tabs.js"></script>
+	<script type="text/javascript" src="scripts/okno.js"></script>
+</body>
+</html>

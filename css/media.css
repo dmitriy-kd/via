@@ -1,0 +1,1074 @@
+@media screen and (max-width: 864px) {
+	body {
+		padding-right: 0px;
+		padding-left: 0px;
+	}
+	.nav-wrapper {
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		z-index: -1;
+		background: #fff;
+		opacity: 0;
+		transition: all 0.2s ease;
+	}
+	
+	.nav-wrapper ul {
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+		width: 100%;
+	}
+	
+	.nav-wrapper ul li {
+		display: block;
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	
+	.nav-wrapper ul li:nth-child(1) a {
+		transition-delay: 0.2s;
+	}
+	
+	.nav-wrapper ul li:nth-child(2) a {
+		transition-delay: 0.3s;
+	}
+	
+	.nav-wrapper ul li:nth-child(3) a {
+		transition-delay: 0.4s;
+	}
+	
+	.nav-wrapper ul li:nth-child(4) a {
+		transition-delay: 0.5s;
+	}
+	
+	.nav-wrapper ul li:nth-child(5) a {
+		transition-delay: 0.6s;
+	}
+	
+	.nav-wrapper ul li:not(:first-child) {
+		margin-left: 0;
+	}
+	
+	.nav-wrapper ul li a {
+		padding: 10px 24px;
+		opacity: 0;
+		color: #000;
+		font-size: 14px;
+		font-weight: 600;
+		letter-spacing: 1.2px;
+		transform: translateX(-20px);
+		transition: all 0.2s ease;
+	}
+	
+	.nav-btn {
+		position: fixed;
+		right: 10px;
+		top: 10px;
+		display: block;
+		width: 48px;
+		height: 48px;
+		cursor: pointer;
+		z-index: 3;
+		border-radius: 50%;
+	}
+	
+	.nav-btn i {
+		display: block;
+		width: 20px;
+		height: 2px;
+		background: #000;
+		border-radius: 2px;
+		margin-left: 14px;
+	}
+	
+	.nav-btn i:nth-child(1) {
+		margin-top: 16px;
+	}
+	
+	.nav-btn i:nth-child(2) {
+		margin-top: 4px;
+		opacity: 1;
+	}
+	
+	.nav-btn i:nth-child(3) {
+		margin-top: 4px;
+	}
+	
+	#nav:checked + .nav-btn {
+		transform: rotate(45deg);
+	}
+	
+	#nav:checked + .nav-btn i {
+		background: #000;
+		transition: transform 0.2s ease;
+		
+	}
+	
+	#nav:checked + .nav-btn i:nth-child(1) {
+		transform: translateY(6px) rotate(180deg);
+	}
+	
+	#nav:checked + .nav-btn i:nth-child(2) {
+		opacity: 0;
+	}
+	
+	#nav:checked + .nav-btn i:nth-child(3) {
+		transform: translateY(-6px) rotate(90deg);
+	}
+	
+	#nav:checked ~ .nav-wrapper {
+		z-index: 1;
+		opacity: 1;
+		
+	}
+	
+	#nav:checked ~ .nav-wrapper ul li a {
+		opacity: 1;
+		transform: translateX(0);
+	}
+	
+	.hidden {
+		display: none;
+	}
+	
+	
+	
+	/*Главная страница*/
+	
+	
+	.logo-item-2 {
+		left: 50%;
+	}
+	
+	.problem img {
+		margin-left: 0px;
+		width: 800px;
+		height: 320px;
+	}
+	
+	.offer {
+		text-align: center;
+		font-size: 17px;
+	}
+	
+	.list {
+		text-align: left;
+	}
+	
+	.decision-title h2 {
+		font-size: 30px;
+	}
+	
+	.decision-title h2:before {
+		width: 170px;
+		top: 80%;
+	}
+	
+	.decision-title h2:after {
+		width: 160px;
+		top: 80%;
+		right: -8%;
+	}
+	
+	#popup__toggle {
+		z-index: 0;
+	}
+	
+	
+	.decision {
+		font-size: 17px;
+		text-align: center;
+	}
+	
+	.decision-items {
+		margin-top: 280px;
+	}
+	
+	.bed {
+		top: 380px;
+		left: 70px;
+	}
+	
+	.work-content .col {
+		margin: 0px;
+		padding: 0px;
+	}
+	
+	.work-items {
+		font-size: 50px;
+	}
+	
+	.work-items .fa-angle-right {
+		margin: 0px 5px;
+		font-size: 20px;
+	}
+	
+	.third-strelka {
+		display: none;
+	}
+	
+	.w-100 {
+		width: 100%;
+	}
+	
+	#third-col-work-text-void {
+		padding-left: 25px;
+	}
+	
+	#footer {
+		background: url(../images/footer6.jpg) no-repeat center top / cover;
+	}
+	
+	#col-mailing {
+		width: 100%;
+	}
+	
+	/* Галерея*/
+	
+	.slider-gallery-1, .slider-gallery-2 {
+		margin: 0 auto;
+	}
+	
+	#left-slider, #right-slider {
+		margin-left: 0;
+		margin-right: 0;
+	}
+	
+	/*О компании*/
+	
+	#header-about {
+		height: 125vh;
+	}
+	
+	.warranty-items {
+		height: 400px;
+	}
+	
+	
+	
+	/*Заказать*/
+	
+	/*.signin {
+		margin-top: 35%;
+	}*/
+	
+}
+
+@media all and (max-width: 768px) {
+	/*body {
+		color: red;
+	}*/
+	
+	.logo-item-2 {
+		left: 62%;
+	}
+	
+	.problem img {
+		margin-top: 200px;
+	}
+	
+	.decision-title h2:before {
+		width: 70px;
+	}
+	
+	.decision-title h2:after {
+		width: 60px;
+	}
+	
+	.bed {
+		top: 240px;
+		left: 150px;
+	}
+	
+	.d-title p {
+		margin-left: 0px;
+	}
+	
+	.decision-items {
+		margin-top: 60px;
+	}
+	
+	.decision-button {
+		margin-top: 240px;
+	}
+	
+	.tabs1, .tabs2, .tabs3, .tabs4, .tabs5 {
+		width: 70%;
+	}
+	
+	.sketchfab-embed-wrapper iframe{
+		width: 520px;
+		height: 400px;
+	}
+	
+	
+	.work-items .fa-clipboard {
+		padding: 25px 30px;
+	}
+	
+	.work-items .fa-angle-right {
+		font-size: 18px;
+		margin: 0px;
+	}
+	
+	.work-items {
+		font-size: 36px;
+	}
+	
+	.work-text {
+		font-size: 16px;
+	}
+	
+	.footer-title p {
+		font-size: 17px;
+	}
+	
+	#footer {
+		background: url(../images/footer6.jpg) no-repeat center top / cover;
+	}
+	
+	/*Галерея*/
+	
+	.slider-gallery-1 , .slider-gallery-2 {
+		width: 400px;
+		height: 240px;
+	}
+	
+	.slider-gallery-1 div img , .slider-gallery-2 div img {
+		width: 400px;
+		height: 240px;
+	}
+	
+	.gallery {
+		margin-bottom: 30px;
+	}
+	
+	.accordeon-otstup {
+		margin-bottom: 50px;
+	}
+	
+	/*О компании*/
+	
+	#header-about {
+		height: 125vh;
+	}
+	
+	#about-title-logo {
+		margin-left: 100px;
+		margin-bottom: 30px;
+	}
+	
+	.about-title p {
+		font-size: 17px;
+	}
+	
+	.numbers {
+		font-size: 40px;
+	}
+	
+	.about-title h1 {
+		font-size: 30px;
+	}
+	
+	.warranty-title {
+		font-size: 17px;
+	}
+	
+	.warranty-items {
+		height: 250px;
+		margin-bottom: 100px;
+	}
+	
+	.warranty-items i {
+		font-size: 50px;
+	}
+	
+	.warranty-items span {
+		font-size: 17px;
+	}
+	
+	.about-text {
+		font-size: 17px;
+	}
+	
+	.footer-title-about {
+		font-size: 17px;
+	}
+	
+	.footer-icons-about {
+		font-size: 30px;
+	}
+	
+	.footer-title-about span {
+		font-size: 40px;
+	}
+	
+	#footer-about {
+		background: url(../images/about-footer2.jpg) no-repeat right bottom / cover ;
+	}
+	
+	/*Заказать*/
+	
+	/*.signin {
+		margin-top: 60px;
+	}*/
+}
+
+@media all and (max-width: 600px) {
+	/*body {
+		color: blue;
+	}*/
+	
+	.logo-item-1 {
+		margin-left: 0;
+	}
+	
+	.logo-item-2 {
+		left: 65%;
+	}
+	
+	.logo span {
+		font-size: 18px;
+	}
+	
+	.features i {
+		font-size: 18px;
+	}
+	
+	.features span {
+		font-size: 17px;
+	}
+	
+	.problem img {
+		margin-top: 380px;
+		margin-left: 13%;
+	}
+	
+	.d-title p {
+		margin-left: 0px;
+	}
+	
+	.decision {
+		margin-top: 30px;
+	}
+	
+	.decision-title {
+		margin-top: 320px;
+	}
+	
+	.decision-title img {
+		display: none;
+	}
+	
+	.decision-title h2:before, .decision-title h2:after {
+		display: none;
+	}
+	
+	.decision-items img {
+		width: 340px;
+		height: 220px;
+	}
+	
+	.bed {
+		left: 140px;
+	}
+	
+	.builder-title h2 {
+		font-size: 24px;
+	}
+	
+	.builder-title p {
+		font-size: 17px;
+	}
+	
+	.tabs1, .tabs2, .tabs3, .tabs4, .tabs5 {
+		width: 80%;
+	}
+	
+	.sketchfab-embed-wrapper iframe {
+		width: 400px;
+		height: 360px;
+	}
+
+	.work-items {
+		font-size: 32px;
+		margin-left: 0;
+		margin-right: 0;
+	}
+	
+	.work-text {
+		font-size: 16px;
+	}
+	
+	.strelka {
+		padding: 0;
+		display: none;
+	}
+	
+	.third-strelka {
+		display: none;
+	}
+	
+	.footer-title h2 {
+		font-size: 26px;
+	}
+	
+	input[type="submit"] {
+		width: 180px;
+	}
+	
+	.btn-sub {
+		width: 180px;
+	}
+	
+	/*Галерея*/
+	
+	.slider-gallery-1 , .slider-gallery-2 {
+		width: 380px;
+		height: 220px;
+	}
+	
+	.slider-gallery-1 div img , .slider-gallery-2 div img {
+		width: 380px;
+		height: 220px;
+	}
+	
+	#about-title-logo {
+		margin-left: 80px;
+	}
+	
+	.about-title p {
+		margin-left: 80px;
+	}
+	
+	#about-text {
+		text-align: center;
+	}
+	
+	#footer-about {
+		background: url(../images/about-footer2.jpg) no-repeat center bottom / cover ;
+	}
+	
+	/*Заказать*/
+	
+	.signin {
+		width: 400px;
+	}
+	
+	.signin .offer-text {
+		width: 300px;
+	}
+	
+	.signin button {
+		width: 300px;
+	}
+	
+	.signin select {
+		width: 300px;
+	}
+	
+}
+
+@media all and (max-width: 480px) {
+	/*body {
+		color: green;
+	}*/
+	
+	.logo-item-2 {
+		left: 68%;
+	}
+	
+	.features i {
+		font-size: 17px;
+	}
+	
+	.features span {
+		font-size: 16px;
+	}
+	
+	.problem img {
+		margin-top: 400px;
+	}
+	
+	.bed {
+		left: 100px;
+	}
+	
+	.d-title p {
+		margin-left: 0px;
+	}
+	
+	input[type="submit"] {
+		width: 150px;
+	}
+	
+	.btn-sub {
+		width: 150px;
+	}
+	
+	/*О компании*/
+	
+	#about-title-logo {
+		margin-left: 50px;
+	}
+	
+	.about-title span {
+		margin-left: 50px;
+	}
+	
+	.about-title p {
+		margin-left: 50px;
+	}
+}
+
+@media all and (max-width: 414px) {
+	.logo-item-1 {
+		display: none;
+	}
+	
+	.logo-2 {
+		display: block;
+		width: 245px;
+		margin: 0 auto;
+		height: 125px;
+		margin-bottom: 50px;
+	}
+	
+	.logo-item-2 {
+		width: 70px;
+		height: 120px;
+		left: 70%;
+		top: 42%;
+	}
+	
+	.logo span {
+		left: 25%;
+	}
+	
+	.logo span:before {
+		top: 20%;
+	}
+	
+	.d-title p {
+		margin-left: 0px;
+	}
+	
+	.soon {
+		display: block;
+	}
+	
+	.sketchfab-embed-wrapper {
+		display: none;
+	}
+	
+	.sketchfab-embed-wrapper iframe {
+		width: 290px;
+		height: 250px;
+	}
+	
+	#divan {
+		display: block;
+	}
+	
+	.features {
+		margin-top: 30px;
+	}
+	
+	.problem img {
+		margin-top: 520px;
+		width: 700px;
+		height: 260px;
+		margin-left: 45px;
+	}
+	
+	.offer {
+		margin-top: 50px;
+	}
+	
+	.decision-title {
+		text-align: center;
+	}
+	
+	.decision-items img {
+		width: 300px;
+		height: 210px;
+	}
+	
+	.bed {
+		top: 230px;
+		left: 95px;
+	}
+	
+	.tabs1, .tabs2, .tabs3, .tabs4, .tabs5 {
+		width: 100%;
+		padding: 10px 0px;
+	}
+	
+	.tab1, .tab2, .tab3, .tab4, .tab5 {
+		padding: 10px 20px;
+	}
+	
+	.mailing form input[type="text"] {
+		width: 190px;
+	}
+	
+	.btn-sub {
+		width: 150px;
+	}
+	
+	.mailing i {
+		font-size: 30px;
+	}
+	
+	/* Галерея */
+	
+	.slider-gallery-1 , .slider-gallery-2 {
+		width: 300px;
+		height: 200px;
+	}
+	
+	.slider-gallery-1 div img , .slider-gallery-2 div img {
+		width: 300px;
+		height: 200px;
+	}
+
+	/* О компании */
+	
+	#about-title-logo {
+		margin-left: 30px;
+		margin-bottom: 50px;
+		width: 45vh;
+		height: 25vh;
+	}
+	
+	.warranty-items {
+		height: 300px;
+		margin-bottom: 80px;
+	}
+	
+	.warranty-title {
+		margin-bottom: 80px;
+	}
+	
+	/* Заказать */
+	
+	.signin {
+		width: 320px;
+	}
+	
+	.signin .offer-text {
+		width: 220px;
+	}
+	
+	.signin button {
+		width: 220px;
+	}
+	
+	.signin select {
+		width: 220px;
+	}
+}
+
+@media all and (max-width: 375px) {
+	
+	
+	
+	.logo-item-1 {
+		display: none;
+	}
+	
+	.logo-2 {
+		display: block;
+		width: 245px;
+		margin: 0 auto;
+		height: 125px;
+		margin-bottom: 50px;
+	}
+	
+	.logo-item-2 {
+		width: 70px;
+		height: 120px;
+		left: 72%;
+		top: 42%;
+	}
+	
+	.logo span {
+		left: 25%;
+	}
+	
+	.logo span:before {
+		top: 20%;
+	}
+	
+	.d-title p {
+		margin-left: 0px;
+	}
+	
+	.soon {
+		display: block;
+	}
+	
+	.sketchfab-embed-wrapper {
+		display: none;
+	}
+	
+	.sketchfab-embed-wrapper iframe {
+		width: 290px;
+		height: 250px;
+	}
+	
+	#divan {
+		display: block;
+	}
+	
+	.features {
+		margin-top: 30px;
+	}
+	
+	.problem img {
+		margin-top: 555px;
+		width: 700px;
+		height: 260px;
+		margin-left: 20px;
+	}
+	
+	.offer {
+		margin-top: 50px;
+	}
+	
+	.decision-title {
+		text-align: center;
+	}
+	
+	.decision-items img {
+		width: 290px;
+		height: 200px;
+	}
+	
+	.bed {
+		top: 230px;
+		left: 70px;
+	}
+	
+	.tabs1, .tabs2, .tabs3, .tabs4, .tabs5 {
+		width: 100%;
+		padding: 10px 0px;
+	}
+	
+	.tab1, .tab2, .tab3, .tab4, .tab5 {
+		padding: 10px 20px;
+	}
+	
+	.mailing form input[type="text"] {
+		width: 170px;
+	}
+	
+	.btn-sub {
+		width: 140px;
+	}
+	
+	.mailing i {
+		font-size: 30px;
+	}
+	
+	/* Галерея */
+	
+	.slider-gallery-1 , .slider-gallery-2 {
+		width: 280px;
+		height: 180px;
+	}
+	
+	.slider-gallery-1 div img , .slider-gallery-2 div img {
+		width: 280px;
+		height: 180px;
+	}
+	
+	/* О компании */
+	
+	#about-title-logo {
+		margin-left: 30px;
+		margin-bottom: 50px;
+		width: 45vh;
+		height: 25vh;
+	}
+	
+	.warranty-items {
+		height: 300px;
+		margin-bottom: 80px;
+	}
+	
+	.warranty-title {
+		margin-bottom: 80px;
+	}
+	
+	/* Заказать */
+	
+	.signin {
+		width: 300px;
+	}
+	
+	.signin .offer-text {
+		width: 200px;
+	}
+	
+	.signin button {
+		width: 200px;
+	}
+	
+	.signin select {
+		width: 200px;
+	}
+	
+}
+
+@media all and (max-width: 320px) {
+	
+	.logo-item-1 {
+		display: none;
+	}
+	
+	.logo-2 {
+		display: block;
+		width: 245px;
+		margin: 0 auto;
+		height: 125px;
+		margin-bottom: 50px;
+	}
+	
+	.logo-item-2 {
+		width: 70px;
+		height: 120px;
+		left: 75%;
+		top: 42%;
+	}
+	
+	.logo span {
+		left: 25%;
+	}
+	
+	.logo span:before {
+		top: 20%;
+	}
+	
+	.d-title p {
+		margin-left: 0px;
+	}
+	
+	.soon {
+		display: block;
+	}
+	
+	.sketchfab-embed-wrapper {
+		display: none;
+	}
+	
+	.sketchfab-embed-wrapper iframe {
+		width: 290px;
+		height: 250px;
+	}
+	
+	#divan {
+		display: block;
+	}
+	
+	.features {
+		margin-top: 30px;
+	}
+	
+	.problem img {
+		margin-top: 650px;
+		width: 700px;
+		height: 260px;
+		margin-left: 0px;
+	}
+	
+	.offer {
+		margin-top: 80px;
+	}
+	
+	.decision-title {
+		text-align: center;
+	}
+	
+	.decision-items img {
+		width: 290px;
+		height: 200px;
+	}
+	
+	.bed {
+		top: 230px;
+		left: 50px;
+	}
+	
+	.tabs1, .tabs2, .tabs3, .tabs4, .tabs5 {
+		width: 100%;
+		padding: 10px 0px;
+	}
+	
+	.tab1, .tab2, .tab3, .tab4, .tab5 {
+		padding: 10px 20px;
+	}
+	
+	.mailing form input[type="text"] {
+		width: 140px;
+	}
+	
+	.btn-sub {
+		width: 130px;
+	}
+	
+	.mailing i {
+		font-size: 30px;
+	}
+	
+	/* Галерея */
+	
+	.slider-gallery-1 , .slider-gallery-2 {
+		width: 250px;
+		height: 180px;
+	}
+	
+	.slider-gallery-1 div img , .slider-gallery-2 div img {
+		width: 250px;
+		height: 180px;
+	}
+
+	/* О компании */
+	
+	#about-title-logo {
+		margin-left: 30px;
+		margin-bottom: 50px;
+		width: 45vh;
+		height: 25vh;
+	}
+	
+	.warranty-items {
+		height: 300px;
+		margin-bottom: 80px;
+	}
+	
+	.warranty-title {
+		margin-bottom: 80px;
+	}
+	
+	/* Заказать */
+	
+	.signin {
+		width: 280px;
+	}
+	
+	.signin .offer-text {
+		width: 180px;
+	}
+	
+	.signin button {
+		width: 180px;
+	}
+	
+	.signin select {
+		width: 180px;
+	}
+}

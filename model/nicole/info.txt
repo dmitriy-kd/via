@@ -1,0 +1,9 @@
+Name: NICOLE
+Version: 2014
+Preview: Yes
+Units: Millimeters
+Dimension: 2200õ890õ940
+Polys: 167 896
+Vert:  173 083 
+Render: V-Ray
+Formats: 3Ds Max 2014, OBJ, FBX
